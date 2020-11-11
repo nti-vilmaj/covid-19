@@ -1,0 +1,117 @@
+
+
+#gridwrapper{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    '. he he he he .'
+    '. he he he he .'
+    '. as1 as1 as2 as2 .'
+    '. as1 as1 as2 as2 .'
+    '. as1 as1 as2 as2 .'
+    '. as1 as1 as2 as2 .'
+    '. fo fo fo fo .';
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6 *1fr);
+    
+    
+    }
+
+body{
+    background-image: url("../img/coronabakterie.jpg");
+}
+
+#header{
+    grid-area: he;
+    display: flex;
+    background-color: rgb(170, 223, 170);
+    align-content: center;
+}
+
+.article1{
+   display: flex;
+   align-content: center; 
+}
+#aktuellt{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#aside1{
+    grid-area: as1;
+    background-color: rgb(199, 198, 198);
+    justify-content: center;
+    align-items: center;
+}
+
+
+ 
+
+#aside2{
+    grid-area: as2;
+    background-color: rgb(236, 236, 236);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer{
+   display:flex;
+    grid-area: fo;
+    background-color: ivory;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2{
+   font-family:  'Arial Narrow Bold', sans-serif;
+   background-color:ivory;
+   font-size: 14px;
+    max-width: 70%;
+    
+    flex:1;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 5%;
+   
+}
+
+.p1{
+font-size: 12px;
+max-width: 70%;
+font-family: sans-serif;
+flex:1;
+text-align: center;
+margin-left: 15%;
+}
+
+.p2{
+    font-size: 12px;
+    max-width: 70%;
+    font-family: sans-serif;
+    flex:1;
+    text-align: center;
+    margin-left: 15%;
+    }
+    
+.h22{
+    font-size: 14px;
+    max-width: 70%;
+    font-family: sans-serif;
+    flex:1;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 5%;
+    } 
+
+
+.footertext{
+    font-size: 10px;
+    flex:1;
+    text-align: center;
+    
+}
